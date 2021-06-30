@@ -1,0 +1,102 @@
+
+.nav-trans{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.nav-pos {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 20%;
+}
+.nav-sticky {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.border1, .border2 {
+    border: 1px solid #fff;
+    position: relative;
+}
+.border2 {
+    top: 10px;
+    left: 10px;
+    padding: 1rem;
+}
+.fontCOLOR{
+    color: white;
+}
+.fontColor{
+    color: white;
+    margin-top: 60%;
+}
+.fontSize{
+
+    font-size: x-small;
+    color: white;
+}
+.whiteBox {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    display:none;
+
+}
+.nav-link{
+    display: inline-block;
+}
+/*start section*/
+.imgg{
+    background-image: url(../imgs/Getsmarter_Why-is-Data-Analysis-Important-In-Business_-_-FAQs_Blog_1500X844.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 760px;
+}
+.pos{
+    margin-left: 55%;
+    width: 25%;
+    background-color:rgba(255, 255, 255, 0.5);
+    position: absolute;
+    transform: translate(10px,100px);
+}
+.color{
+    color: #247CA4;
+}
+/*start fixed nav*/
+.bg2{
+    background-color: rgba(71, 71, 71, 1);
+    position: absolute;
+}
+/*end of fixed nav*/
+/*startof about section*/
+.fz{
+    font-size: 5rem;
+}
+.fncolor{
+    color:#474747;
+    line-height: 2em;
+}
+/*end of about section*/
+/*start of work section*/
+/*end of work section*/
+/*start of clints*/
+.edtMarg{
+    margin-top: 15%;
+}
+/*end of clints*/
+/*start of talk*/
+.bord-1, .bord-2 {
+    border: 1px solid #b3b3b3;
+    position: relative;
+}
+.bord-2 {
+    top: 10px;
+    left: 10px;
+    padding: 1rem;;
+}
+/*end of talk*/
